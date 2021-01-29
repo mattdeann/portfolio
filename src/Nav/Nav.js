@@ -1,19 +1,32 @@
 import './Nav.css'
+import React, { Component } from 'react'
 
-function Nav() {
-  return (
-    <nav>
-      <p className="button top">
-        HOME
-      </p>
-      <p className="button services">
-       SERVICES
-      </p>
-      <p className="button contact">
+class Nav extends Component {
+  openServices = () => {
+
+  }
+  openContact = () => {
+
+  }
+  openAbout = () => {
+
+  }
+
+  render() {
+    return (
+      <nav>
+        <p onClick={this.openServices} className="button top">
+          SERVICES
+        </p>
+        <p onClick={this.openContact} className="button services">
         CONTACT
-      </p>
-    </nav>
-  );
+        </p>
+        <p onClick={this.openAbout} className="button contact">
+          ABOUT
+        </p>
+      </nav>
+    );
+  }
 }
 
 export default Nav;

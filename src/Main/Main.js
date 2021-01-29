@@ -8,7 +8,7 @@ function Main() {
       </h1>
       <article className="main-body">
         <article className="service">
-          <h3>Ecommerce Integration</h3>
+          <h3>E-Commerce Integration</h3>
           <p>
             Officia ea consequat commodo qui. Minim dolore reprehenderit ullamco sit labore cillum sunt consequat magna fugiat velit. Ex in veniam culpa sunt. Aliqua nisi nisi nostrud excepteur tempor ut ad consequat. Non incididunt amet ipsum veniam nulla exercitation nulla cillum non irure Lorem officia sint laboris. Ipsum minim deserunt esse pariatur anim cillum incididunt commodo proident. Commodo voluptate occaecat labore esse incididunt cillum nulla non ullamco laboris magna laboris anim duis.
           </p>
