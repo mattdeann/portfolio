@@ -1,4 +1,11 @@
 import './Header.css'
+import logo from '../images/logo.svg';
+import cssImg from '../images/css-img.png'
+import htmlImg from '../images/html-img.png'
+import jsImg from '../images/js-img.png'
+import mongoImg from '../images/mongo-img.png'
+import nodeImg from '../images/node-img.png'
+import wpImg from '../images/wordpress-img.png'
 
 function Header() {
   return (
@@ -11,7 +18,13 @@ function Header() {
           Software Developer
         </p>
         <p className="tech-stack">
-          INSERT STACK IMAGE LINKS HERE
+          <img className="quote-image" src={htmlImg} alt="html logo"/>
+          <img className="quote-image" src={cssImg} alt="css logo"/>
+          <img className="quote-image" src={jsImg} alt="js logo"/>
+          <img className="quote-image" src={logo} alt="react logo"/>
+          <img className="quote-image" src={mongoImg} alt="mongoDB logo"/>
+          <img className="quote-image" src={nodeImg} alt="node js logo"/>
+          <img className="quote-image" src={wpImg} alt="wordpress logo"/>
         </p>
       </article>
     </header>

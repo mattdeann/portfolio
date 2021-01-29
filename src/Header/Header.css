@@ -1,8 +1,25 @@
 header {
-  height: 60vh;
+  height: 80vh;
   color: white;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.name {
+  font-size: 3rem;
+}
+
+.job-title {
+  font-size: 2rem;
+}
+
+.tech-stack {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quote-image {
+  height: 5rem;
 }

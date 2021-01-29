@@ -1,4 +1,12 @@
 main {
-  height: 90vh;
+  min-height: 90vh;
   background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.main-body {
+  padding: 10rem;
 }

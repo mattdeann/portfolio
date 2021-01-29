@@ -4,13 +4,13 @@ function Nav() {
   return (
     <nav>
       <p className="button top">
-        logo
+        HOME
       </p>
       <p className="button services">
-       logo
+       SERVICES
       </p>
       <p className="button contact">
-        logo
+        CONTACT
       </p>
     </nav>
   );
