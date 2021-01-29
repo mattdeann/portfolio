@@ -1,0 +1,8 @@
+header {
+  height: 60vh;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
