@@ -1,12 +1,42 @@
 main {
   min-height: 90vh;
-  background-color: cadetblue;
+  background-color: #2A243B;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-
 }
 
 .main-body {
-  padding: 10rem;
+  padding: 5rem;
+}
+
+.about {
+  background-color: #0278d8;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: space-evenly;
+  line-height: 1.8;
+  align-items: flex-end;
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: left;
+  margin-bottom: 10rem;
+}
+
+.main-title {
+  align-self: flex-start;
+}
+
+.projects {
+  height: 50vh;
+  background-color: #EA5E94;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  line-height: 1.8;
+  align-items: flex-start;
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: left;
 }

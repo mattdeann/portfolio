@@ -3,11 +3,13 @@ import React, { Component } from 'react'
 
 class Nav extends Component {
   openHome = () => {
-    
+    const about = document.querySelector("main");
+    about.scrollIntoView();
   }
+
   openServices = () => {
-    const services = document.querySelector("main");
-    services.scrollIntoView();
+    const projects = document.querySelector(".projects");
+    projects.scrollIntoView();
   }
   openContact = () => {
     const contact = document.querySelector("footer");
@@ -18,13 +20,13 @@ class Nav extends Component {
     return (
       <nav>
         <p onClick={this.openHome} className="button top">
-          ABOUT
+          About
         </p>
         <p onClick={this.openServices} className="button services">
-          PROJECTS
+          Projects
         </p>
         <p onClick={this.openContact} className="button contact">
-          CONTACT
+          Contact
         </p>
       </nav>
     );

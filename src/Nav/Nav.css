@@ -1,11 +1,18 @@
 nav {
-  height: 5vh;
+  height: auto;
   color: white;
-  background-color: black;
+  background-color: #16131f;
   display: flex;
   justify-content: flex-end;
 }
 
 .button {
   padding: 1rem;
+  transition: 0.3s all;
 }
+
+.button:hover {
+  cursor: pointer;
+  color: #ffdc7b;
+}
+

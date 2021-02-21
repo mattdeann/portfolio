@@ -1,7 +1,7 @@
 header {
   height: 80vh;
   color: white;
-  background-color: black;
+  background-color: #2A243B;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -26,13 +26,39 @@ header {
   align-items: center;
 }
 
+.email-link {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  border: 1px solid #bbade410;
+  border-radius: 10px;
+  box-shadow: .3rem .3rem .6rem #16131f, 
+  -.3rem -.3rem .6rem #493f61;
+  transition: 0.3s all;
+}
+
+.email-link:hover {
+  cursor: pointer;
+  background-color: #0278d8;
+  box-shadow: .3rem .3rem .6rem #16131f, 
+  -.3rem -.3rem .6rem #493f61,
+  inset .3rem .3rem .6rem #035ea8, 
+  inset -.3rem -.3rem .6rem #4dafff;
+
+}
+
+.greeting {
+  font-size: clamp(10px, 1.5vw, 3vw);
+
+}
+
 .name {
   margin: 0;
-  font-size: 3rem;
+  font-size: clamp(14px, 4vw, 5vw);
 }
 
 .job-title {
-  font-size: 2rem;
+  font-size: clamp(12px, 2.5vw, 4vw);
 }
 
 .tech-stack {

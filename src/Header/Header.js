@@ -23,9 +23,9 @@ function Header() {
           </p>
         </section>
         <section className="right-header">
-            <article className="email-link">
+            <a href="mailto:deanma95@gmail.com" className="email-link">
               Let's Connect!
-            </article>
+            </a>
           </section>
       </article>
       <article>
