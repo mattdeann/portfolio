@@ -29,7 +29,6 @@ main {
 }
 
 .projects {
-  height: 50vh;
   background-color: #EA5E94;
   display: flex;
   flex-direction: column;
@@ -39,4 +38,22 @@ main {
   padding: 3rem;
   border-radius: 1rem;
   text-align: left;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.project-info {
+  grid-column: 1 / 2;
+}
+
+.project-image {
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
 }

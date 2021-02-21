@@ -1,4 +1,7 @@
 import './Main.css'
+import pomodorobot from '../images/pomodorobot.png'
+import falto from '../images/falto.png'
+import timeTravelers from '../images/travel-tracker.png'
 
 function Main() {
   return (
@@ -16,11 +19,29 @@ function Main() {
           </p>
         </article>
         <article className="projects">
-          <h1 className="main-title">
+          <h2 className="main-title">
             Projects I've Built
-          </h1>
+          </h2>
           <section className="project">
-            FALTO
+            <article classname="project-info">
+              <h3>FALTO</h3>
+              <p>Ecommerce website for Chicago based luxury fashion brand. Utilizes a minimalistic design to draw attention to product. Built on top of Squarespace using HTML / CSS / JS</p>
+            </article>
+            <img className="project-image" src={falto} alt="falto website"/>
+          </section>
+          <section className="project">
+            <article classname="project-info">
+              <h3>PomodoRobot</h3>
+              <p>Pomodoro timer app created to help increase personal productivity and decrease burn out. Uses React state as well as window APIs in order to set an internal interval without relying on a network.</p>
+            </article>
+            <img className="project-image" src={pomodorobot} alt="pomodorobot"/>
+          </section>
+          <section className="project">
+            <article classname="project-info">
+              <h3>Time Travelers</h3>
+              <p>Web application written entirely in Vanilla JS that allows users to interact with a public API in order to view movie data. Upon assembly, the program automatically display movies from the database on page, with the ability to open each individual movie for more info.</p>
+            </article>
+            <img className="project-image" src={timeTravelers} alt="time travelers"/>
           </section>
         </article>
       </article>
