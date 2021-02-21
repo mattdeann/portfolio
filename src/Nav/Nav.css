@@ -9,6 +9,7 @@ nav {
 .button {
   padding: 1rem;
   transition: 0.3s all;
+  margin-bottom: 0;
 }
 
 .button:hover {

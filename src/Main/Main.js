@@ -25,7 +25,7 @@ function Main() {
           <section className="project">
             <article classname="project-info">
               <h3>FALTO</h3>
-              <p>Ecommerce website for Chicago based luxury fashion brand. Utilizes a minimalistic design to draw attention to product. Built on top of Squarespace using HTML / CSS / JS</p>
+              <p className="project-description">Ecommerce website for Chicago based luxury fashion brand. Utilizes a minimalistic design to draw attention to product. Built on top of Squarespace using HTML / CSS / JS</p>
               <a href="https://www.faltoclothing.com/" rel="noopener noreferrer" target="_blank">Falto Website</a>
             </article>
             <img className="project-image" src={falto} alt="falto website"/>
@@ -33,7 +33,7 @@ function Main() {
           <section className="project">
             <article classname="project-info">
               <h3>PomodoRobot</h3>
-              <p>Pomodoro timer app created to help increase personal productivity and decrease burn out. Uses React state as well as window APIs in order to set an internal interval without relying on a network.</p>
+              <p className="project-description">Pomodoro timer app created to help increase personal productivity and decrease burn out. Uses React state as well as window APIs in order to set an internal interval without relying on a network.</p>
               <a href="https://mattdeann.github.io/pomodoro/" rel="noopener noreferrer" target="_blank">PomodoRobot</a>
             </article>
             <img className="project-image" src={pomodorobot} alt="pomodorobot"/>
@@ -41,7 +41,7 @@ function Main() {
           <section className="project">
             <article classname="project-info">
               <h3>Time Travelers</h3>
-              <p>Web application written entirely in Vanilla JS that allows users to interact with a public API in order to view movie data. Upon assembly, the program automatically display movies from the database on page, with the ability to open each individual movie for more info.</p>
+              <p className="project-description">Web application written entirely in Vanilla JS that allows users to interact with a public API in order to view movie data. Upon assembly, the program automatically display movies from the database on page, with the ability to open each individual movie for more info.</p>
               <a href="https://github.com/mattdeann/travel-tracker" rel="noopener noreferrer" target="_blank">Time Travelers Repo</a>
             </article>
             <img className="project-image" src={timeTravelers} alt="time travelers"/>

@@ -49,11 +49,9 @@ header {
 
 .greeting {
   font-size: clamp(10px, 1.5vw, 3vw);
-
 }
 
 .name {
-  margin: 0;
   font-size: clamp(14px, 4vw, 5vw);
 }
 
