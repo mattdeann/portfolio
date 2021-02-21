@@ -10,21 +10,33 @@ import wpImg from '../images/wordpress-img.png'
 function Header() {
   return (
     <header>
-      <h1 className="name">
-        Matthew Dean
-      </h1>
+      <article className="intro">
+        <section className="left-header">
+          <p className="greeting">
+            Hey there! My name is
+          </p>
+          <h1 className="name">
+            Matthew Dean
+          </h1>
+          <p className="job-title">
+            I'm a software developer.
+          </p>
+        </section>
+        <section className="right-header">
+            <article className="email-link">
+              Let's Connect!
+            </article>
+          </section>
+      </article>
       <article>
-        <p className="job-title">
-          Software Developer
-        </p>
         <p className="tech-stack">
           <img className="quote-image bubble" src={htmlImg} alt="html logo"/>
           <img className="quote-image bubble" src={cssImg} alt="css logo"/>
           <img className="quote-image bubble" src={jsImg} alt="js logo"/>
           <img className="quote-image spin" src={logo} alt="react logo"/>
-          <img className="quote-image bubble" src={mongoImg} alt="mongoDB logo"/>
+          {/* <img className="quote-image bubble" src={mongoImg} alt="mongoDB logo"/> */}
           <img className="quote-image bubble" src={nodeImg} alt="node js logo"/>
-          <img className="quote-image bubble" src={wpImg} alt="wordpress logo"/>
+          {/* <img className="quote-image bubble" src={wpImg} alt="wordpress logo"/> */}
         </p>
       </article>
     </header>

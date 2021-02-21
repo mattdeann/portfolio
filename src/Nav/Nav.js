@@ -18,10 +18,10 @@ class Nav extends Component {
     return (
       <nav>
         <p onClick={this.openHome} className="button top">
-          HOME
+          ABOUT
         </p>
         <p onClick={this.openServices} className="button services">
-          SERVICES
+          PROJECTS
         </p>
         <p onClick={this.openContact} className="button contact">
           CONTACT
