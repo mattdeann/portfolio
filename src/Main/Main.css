@@ -29,7 +29,7 @@ main {
 }
 
 .projects {
-  background-color: #EA5E94;
+  background-color: #af5d37;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -54,6 +54,33 @@ main {
 .project-image {
   height: 100%;
   width: 100%;
-
   object-fit: cover;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  transition: 0.3s all;
+  color: white;
+  padding: 1rem;
+  border: 1px solid #af5d374f;
+  border-radius: 10px;
+  box-shadow: .3rem .3rem .6rem #663620, 
+  -.3rem -.3rem .6rem #f7844e;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #ffdc7b;
+  background-color: #0278d8;
+  box-shadow: .3rem .3rem .6rem #663620, 
+  -.3rem -.3rem .6rem #f7844e,
+  inset .3rem .3rem .6rem #035ea8, 
+  inset -.3rem -.3rem .6rem #4dafff;
 }
